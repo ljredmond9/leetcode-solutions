@@ -1,0 +1,9 @@
+.idea/
+*.iml
+
+*.js
+!*.json
+!jest.config.js
+
+node_modules/
+package-lock.json
