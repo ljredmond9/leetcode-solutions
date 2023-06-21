@@ -33,7 +33,7 @@ function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
         if (maxLeftPartition <= minRightPartition) {
             // found the partition point
             if (totalLength % 2 === 0) {
-                return (maxLeftPartition + minRightPartition) / 2.0;
+                return (maxLeftPartition + minRightPartition) / 2;
             } else {
                 return maxLeftPartition;
             }
