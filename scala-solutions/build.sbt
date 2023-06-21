@@ -7,5 +7,6 @@ lazy val root = (project in file("."))
     name := "scala-solutions",
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.2.16" % Test
-    )
+    ),
+    logBuffered in Test := false
   )
