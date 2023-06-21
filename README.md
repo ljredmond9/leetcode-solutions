@@ -53,3 +53,28 @@ pipenv run pytest
 
 The `python_solutions` module uses [pytest](https://docs.pytest.org/en/stable/) as a test runner. See the
 documentation for more commands and information.
+
+## Scala
+
+### Prerequisites
+
+You should have [Scala](https://www.scala-lang.org) and [sbt](https://www.scala-sbt.org/) installed.
+
+### Install Dependencies
+
+From the `scala-solutions` directory, run:
+```bash
+sbt update
+```
+
+### Run all Tests
+
+From the `scala-solutions` directory, run:
+```bash
+sbt test
+```
+
+### Additional Information
+
+The `scala-solutions` module uses [ScalaTest](https://www.scalatest.org/) as a test framework. See the documentation for
+[using Scalatest with sbt](https://www.scalatest.org/user_guide/using_scalatest_with_sbt) for more commands and information.
