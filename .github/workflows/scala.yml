@@ -32,4 +32,5 @@ jobs:
           cache: 'sbt'
 
       - name: sbt test
+        working-directory: ./scala-solutions
         run: sbt test
