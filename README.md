@@ -12,21 +12,21 @@ You should have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.co
 
 ### Install Dependencies
 
-From the `typescript-solutions` directory, run:
+From the `typescript` directory, run:
 ```bash
 npm i
 ```
 
 ### Run all Tests
 
-From the `typescript-solutions` directory, run:
+From the `typescript` directory, run:
 ```bash
 npm test
 ```
 
 ### Additional Information
 
-The `typescript-solutions` module uses [Jest](https://jestjs.io/) as a test runner. See the documentation for more 
+The `typescript` module uses [Jest](https://jestjs.io/) as a test runner. See the documentation for more 
 commands and information.
 
 ## Python
@@ -76,5 +76,5 @@ sbt test
 
 ### Additional Information
 
-The `scala-solutions` module uses [ScalaTest](https://www.scalatest.org/) as a test framework. See the documentation for
+The `scala` module uses [ScalaTest](https://www.scalatest.org/) as a test framework. See the documentation for
 [using Scalatest with sbt](https://www.scalatest.org/user_guide/using_scalatest_with_sbt) for more commands and information.
