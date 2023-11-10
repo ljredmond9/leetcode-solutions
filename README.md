@@ -62,14 +62,14 @@ You should have [Scala](https://www.scala-lang.org) and [sbt](https://www.scala-
 
 ### Install Dependencies
 
-From the `scala-solutions` directory, run:
+From the `scala` directory, run:
 ```bash
 sbt update
 ```
 
 ### Run all Tests
 
-From the `scala-solutions` directory, run:
+From the `scala` directory, run:
 ```bash
 sbt test
 ```
