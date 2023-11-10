@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   build-and-test:
-    name: Build & Test
+    name: Test Typescript
     strategy:
       matrix:
         os:
