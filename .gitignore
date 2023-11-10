@@ -6,3 +6,9 @@
 !jest.config.js
 
 node_modules/
+
+python/venv/
+
+scala/target/
+scala/project/target/
+scala/.bsp/
