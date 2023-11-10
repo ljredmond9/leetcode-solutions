@@ -33,25 +33,25 @@ commands and information.
 
 ### Prerequisites
 
-You should have [Python 3](https://www.python.org/downloads/) and [Pipenv](https://pipenv.pypa.io/en/latest/) installed.
+You should have [Python 3](https://www.python.org/downloads/) and [pip](https://pypi.org/project/pip/) installed.
 
 ### Install Dependencies
 
-From the `python_solutions` directory, run:
+From the `python` directory, run:
 ```bash
-pipenv install
+pip install -r requirements.txt
 ```
 
 ### Run all Tests
 
-From the `python_solutions` directory, run:
+From the `python` directory, run:
 ```bash
-pipenv run pytest
+python -m pytest
 ```
 
 ### Additional Information
 
-The `python_solutions` module uses [pytest](https://docs.pytest.org/en/stable/) as a test runner. See the
+The `python` module uses [pytest](https://docs.pytest.org/en/stable/) as a test runner. See the
 documentation for more commands and information.
 
 ## Scala
